@@ -82,7 +82,7 @@ float Multi( float num1, float num2 )
     float numb2 = num2;
 
     multiplic = numb1*numb2;
-    printf("Multiplic = %f",Multiplic);
+    printf("Multiplic = %f\r\n", multiplic);
 
     return multiplic;
 }
