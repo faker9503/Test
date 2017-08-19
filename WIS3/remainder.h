@@ -1,62 +1,21 @@
 /*******************************************************************************
             Copyright (C), 2017, GoerTek Technology Co., Ltd.
-*******************************************************************************/
-/**
-  *  @defgroup	remainder module name
-  *  @brief 	remainder
+********************************************************************************
   *  @file 		remainder
   *  @author 	Barbossa.Yang
   *  @version 	1.0
   *  @date    	2017/8/19
-  *  @{
-  *//*
   *  FileName      : remainder
-  *  Description   : remainder
+  *  Description   : remainder.c's Head File
   *  FunctionList  :
   * History        :
   * 1.Date         : 2017/8/19
   *    Author      : Barbossa.Yang
   *    Modification: Created file
 *******************************************************************************/
-/******************************************************************************/
-/** use for remainder
-  *
-  * @param[in] a
-  * @param[in] b
-  *
-  * @return
-  *
-  * @note
-  *
-  *//*
-  * History        :
-  * 1.Date         : 2017/8/19
-  *   Author       : Barbossa.Yang
-  *   Modification : Created function
 
-*******************************************************************************/
-int remainder( int a, int b )
-{
-    int c;
-    c = (a%b);
-    return c;
-}
-/******************************************************************************/
-/**
-  *
-  * @param[in]
-  *
-  * @return
-  *
-  * @note
-  *
-  *//*
-  * History        :
-  * 1.Date         : 2017/8/19
-  *   Author       : Barbossa.Yang
-  *   Modification : Created function
-
-*******************************************************************************/
+#ifndef __REMAINDER_H__
+#define __REMAINDER_H__
 
 /*----------------------------------------------*
  * Include File                                 *
@@ -95,6 +54,6 @@ int remainder( int a, int b )
  *----------------------------------------------*/
 
 
+extern int remainder( int a, int b );
 
-/** @}*/
-
+#endif /* __REMAINDER_H__ */
