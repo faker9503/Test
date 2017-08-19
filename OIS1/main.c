@@ -1,29 +1,29 @@
 /*******************************************************************************
             Copyright (C), 2017, GoerTek Technology Co., Ltd.
 *******************************************************************************/
-/** 
+/**
   *  @defgroup	main module name
-  *  @brief 	main 
+  *  @brief 	main
   *  @file 		main
-  *  @author 	wilson
+  *  @author 	daryl.liu
   *  @version 	1.0
-  *  @date    	2017/8/14
+  *  @date    	2017/8/19
   *  @{
   *//*
   *  FileName      : main
-  *  Description   : do the function including add, substract, multiple,
-                     divide,odd or even,
+  *  Description   : main.c
   *  FunctionList  :
+              		main
   * History        :
-  * 1.Date         : 2017/8/14
-  *    Author      : wilson
+  * 1.Date         : 2017/8/19
+  *    Author      : daryl.liu
   *    Modification: Created file
 *******************************************************************************/
 
 /*----------------------------------------------*
  * Include File                                 *
  *----------------------------------------------*/
-#include "private.h"
+#include "Private.h"
 /*----------------------------------------------*
  * External Declaration                         *
  *----------------------------------------------*/
@@ -51,6 +51,7 @@
 /*----------------------------------------------*
  * Micro Defination                             *
  *----------------------------------------------*/
+
 #define MAX_NUM 12
 #define MIN_NUM 9
 /*----------------------------------------------*
@@ -58,24 +59,30 @@
  *----------------------------------------------*/
 int main(int argc, char *argv[])
 {
-    
+
   int first_num  = MAX_NUM;
   int second_num = MIN_NUM;
+
+  int add_sum = 0;
     /// the following code to be used for add first_num + second_num functin call
-    
+  add_sum=Add(first_num, second_num);
+  printf("Add_sum=%d\n", add_sum);
     /// the following code to be used for subtract first_num - second_num functin call
-     
+
     /// the following code to be used for multiply first_num*second_num functin call
-      
-    /// the following code to be used for divide first_num/second_num functin call  
-    
-    /// the following code to be used for remainder first_num%second_num functin call  
-    
-    /// the following code to be used for odd or even first_num(second_num) is odd or even functin call 
-  
-  system("PAUSE");	
+
+    /// the following code to be used for divide first_num/second_num functin call
+
+    /// the following code to be used for remainder first_num%second_num functin call
+
+    /// the following code to be used for odd or even first_num(second_num) is odd or even functin call
+
+  system("PAUSE");
   return 0;
 }
 
 
 /** @}*/
+
+/** @}*/
+
