@@ -16,7 +16,7 @@
   *   Modification : Created function
 
 *******************************************************************************/
-int Multiply(int a,int b)
+int Multiply(int x,int y)
 {
-    return a * b;
+    return x * y;
 }
