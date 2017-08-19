@@ -75,7 +75,7 @@
   *   Modification : Created function
 
 *******************************************************************************/
-int  multiply( int a, int b )
+int  Multiply( int a, int b )
 {
   printf("%d\n",a*b);
 }
