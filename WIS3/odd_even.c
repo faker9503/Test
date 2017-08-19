@@ -11,7 +11,7 @@
   *  @{
   *//*
   *  FileName      : odd_even
-  *  Description   : 进行奇偶判断
+  *  Description   : 进行奇偶判断的过程
   *  FunctionList  :
   * History        :
   * 1.Date         : 2017/8/19
