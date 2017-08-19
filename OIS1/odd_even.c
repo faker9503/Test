@@ -72,14 +72,14 @@
 *******************************************************************************/
 void OddEvenFunction(int data)
 {
-    if(data % 2 == 0)
+    if(0 == data % 2)
     {
-  	    printf("%d为偶数\n", data);
-  	}
-  	else
-  	{
-  	    printf("%d为奇数\n", data);
-  	}
+        printf("%d is EVEN.\n", data);
+    }
+    else
+    {
+        printf("%d is ODD.\n", data);
+    }
 }
 
 
