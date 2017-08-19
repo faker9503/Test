@@ -14,6 +14,9 @@
   *   Modification : Created function
 
 *******************************************************************************/
+#include "stdio.h"
+#include "math.h"
+
 int OddEven( int NumInput )
 {
     int Num;
@@ -27,6 +30,8 @@ int OddEven( int NumInput )
     {
         printf("输入参数%d为奇数\n",NumInput);
     }
+    return 0;
 }
 
 //this file is used for complete the remainder function
+

@@ -84,7 +84,7 @@ float Add( float num1, float num2 )
 
 /*print the calculate result */
 
-    printf("%s%f/r/n","the add result is",result);
+    printf("%s%f\r\n","the add result is",result);
 /**return the result */
     return result;
 

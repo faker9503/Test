@@ -88,7 +88,7 @@ float Divide( float num1, float num2 )
     {
         /**calculation */
         result = num1/num2;
-        printf("%s%f\r\n","the result is:",result);
+        printf("%s%f\r\n","The divid result is:",result);
     }
     return result;
 }
