@@ -63,19 +63,19 @@ int main(int argc, char *argv[])
     int first_num  = MAX_NUM;
     int second_num = MIN_NUM;
 
-    int add_sum = 0;
     /// the following code to be used for add first_num + second_num functin call
-    add_sum=Add(first_num, second_num);
-    printf("Add_sum=%d\n", add_sum);
+    Add(first_num, second_num);
     /// the following code to be used for subtract first_num - second_num functin call
-
+    Subtract(first_num, second_num);
     /// the following code to be used for multiply first_num*second_num functin call
-
+    MultiplyFunction(first_num, second_num);
     /// the following code to be used for divide first_num/second_num functin call
-
+    Divide(first_num, second_num);
     /// the following code to be used for remainder first_num%second_num functin call
-
+    Remainder(first_num, second_num);
     /// the following code to be used for odd or even first_num(second_num) is odd or even functin call
+    OddEvenFunction(first_num);
+    OddEvenFunction(second_num);
 
     system("PAUSE");
     return 0;

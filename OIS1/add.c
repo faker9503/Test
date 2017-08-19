@@ -75,9 +75,11 @@
   *   Modification : Created function
 
 *******************************************************************************/
-int Add(int a, int b)
+void Add(int a, int b)
 {
-    return a + b;
+    int result=0;
+    result = a + b;
+    printf("Sum=%d\n", result);
 }
 
 /** @}*/
