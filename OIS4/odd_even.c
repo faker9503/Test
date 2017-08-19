@@ -78,10 +78,15 @@
 *******************************************************************************/
 void  Odd_evenFunc( int num )
 {
-    if(num % 2 == 0)
+      
+    if(0 == num % 2)
     {
-        printf("%d is a even",num);
-     else
-        printf("%d is a odd",num);
+        printf("%d is a even\n",num);
     }
+    else
+    {
+        printf("%d is a odd\n",num);
+    }
+    
+    return; 
 }
