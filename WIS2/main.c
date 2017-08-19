@@ -61,6 +61,7 @@ int main(int argc, char *argv[])
     
   int first_num  = MAX_NUM;
   int second_num = MIN_NUM;
+  OddEven(first_num);
     /// the following code to be used for add first_num + second_num functin call
     
     /// the following code to be used for subtract first_num - second_num functin call
