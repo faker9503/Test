@@ -54,11 +54,11 @@
 /*----------------------------------------------*
  * Function Declaration                         *
  *----------------------------------------------*/
-int Remainder(int a, int b)
+void Remainder(int a, int b)
 {
     int c;
-    c=a%b;
-    printf("%d除以%d的余数为%d\n",a,b,c);
+    c = a%b;
+    printf("%dmod%d=%d\n", a, b, c);
 }
 
 
