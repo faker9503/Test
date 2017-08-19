@@ -5,25 +5,25 @@
   *  @defgroup	main module name
   *  @brief 	main 
   *  @file 		main
-  *  @author 	wilson
+  *  @author 	freddie.zhang
   *  @version 	1.0
-  *  @date    	2017/8/14
+  *  @date    	2017/8/19
   *  @{
   *//*
   *  FileName      : main
-  *  Description   : do the function including add, substract, multiple,
-                     divide,odd or even,
+  *  Description   : main function
   *  FunctionList  :
   * History        :
-  * 1.Date         : 2017/8/14
-  *    Author      : wilson
+  * 1.Date         : 2017/8/19
+  *    Author      : freddie.zhang
   *    Modification: Created file
 *******************************************************************************/
 
 /*----------------------------------------------*
  * Include File                                 *
  *----------------------------------------------*/
-#include "private.h"
+ #include "private.h"
+
 /*----------------------------------------------*
  * External Declaration                         *
  *----------------------------------------------*/
@@ -51,16 +51,34 @@
 /*----------------------------------------------*
  * Micro Defination                             *
  *----------------------------------------------*/
-#define MAX_NUM 12
-#define MIN_NUM 9
+
 /*----------------------------------------------*
  * Function Declaration                         *
  *----------------------------------------------*/
-int main(int argc, char *argv[])
+/******************************************************************************/
+/** main function
+  * 
+  * @param[in] argc
+  * @param[in] argv[]
+  * 
+  * @return 
+  * 
+  * @note 
+  * 
+  *//* 
+  * History        :
+  * 1.Date         : 2017/8/19
+  *   Author       : freddie.zhang
+  *   Modification : Created function
+ 
+*******************************************************************************/
+int main( int argc, char *argv[] )
 {
-    
-  int first_num  = MAX_NUM;
-  int second_num = MIN_NUM;
+    float num1 = 8;
+    float num2 = 5;
+    float num3 = 0;
+    float float_result;
+    int int_result;
     /// the following code to be used for add first_num + second_num functin call
     
     /// the following code to be used for subtract first_num - second_num functin call
@@ -68,14 +86,17 @@ int main(int argc, char *argv[])
     /// the following code to be used for multiply first_num*second_num functin call
       
     /// the following code to be used for divide first_num/second_num functin call  
-    
+    float_result = Divide( num1, num2 );
+    float_result = Divide( num1, num3 );
     /// the following code to be used for remainder first_num%second_num functin call  
     
     /// the following code to be used for odd or even first_num(second_num) is odd or even functin call 
   
-  system("PAUSE");	
-  return 0;
+    system("PAUSE");	
+    return 0;
 }
 
 
 /** @}*/
+
+
