@@ -1,5 +1,5 @@
 /******************************************************************************/
-/**  This function is to implement addition operations
+/**  This function is to implement addition operation
   *
   * @param[in] first_num
   * @param[in] second_num
