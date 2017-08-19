@@ -1,23 +1,21 @@
 /*******************************************************************************
             Copyright (C), 2017, GoerTek Technology Co., Ltd.
-*******************************************************************************/
-/**
-  *  @defgroup	odd_even module name
-  *  @brief 	odd_even
+********************************************************************************
   *  @file 		odd_even
   *  @author 	Misaka.Zhang
   *  @version 	1.0
   *  @date    	2017/8/19
-  *  @{
-  *//*
   *  FileName      : odd_even
-  *  Description   : 进行奇偶判断
+  *  Description   : odd_even.h's Head File
   *  FunctionList  :
   * History        :
   * 1.Date         : 2017/8/19
   *    Author      : Misaka.Zhang
   *    Modification: Created file
 *******************************************************************************/
+
+#ifndef __ODD_EVEN_H__
+#define __ODD_EVEN_H__
 
 /*----------------------------------------------*
  * Include File                                 *
@@ -54,29 +52,8 @@
 /*----------------------------------------------*
  * Function Declaration                         *
  *----------------------------------------------*/
-/******************************************************************************/
-/** 判断一个数是奇数还是偶数
-  *
-  * @param[in] input_num
-  *
-  * @return 返回0是偶数，返回1是奇数
-  *
-  * @note
-  *
-  *//*
-  * History        :
-  * 1.Date         : 2017/8/19
-  *   Author       : Misaka.Zhang
-  *   Modification : Created function
 
-*******************************************************************************/
-int OddOrEven( int input_num )
-{
-    int result = input_num % 2; // 输入变量与2整除的余数
-    return result;
-}
+int OddOrEven( int input_num );
 
-//this file is used for complete the odd or even function
-
-/** @}*/
+#endif /* __ODD_EVEN_H__ */
 
