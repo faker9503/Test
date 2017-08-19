@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     /// the following code to be used for remainder first_num%second_num functin call  
     
     /// the following code to be used for odd or even first_num(second_num) is odd or even functin call 
-  
+  multiply(first_num,second_num);
   system("PAUSE");	
   return 0;
 }
