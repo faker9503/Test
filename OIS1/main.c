@@ -60,13 +60,13 @@
 int main(int argc, char *argv[])
 {
 
-  int first_num  = MAX_NUM;
-  int second_num = MIN_NUM;
+    int first_num  = MAX_NUM;
+    int second_num = MIN_NUM;
 
-  int add_sum = 0;
+    int add_sum = 0;
     /// the following code to be used for add first_num + second_num functin call
-  add_sum=Add(first_num, second_num);
-  printf("Add_sum=%d\n", add_sum);
+    add_sum=Add(first_num, second_num);
+    printf("Add_sum=%d\n", add_sum);
     /// the following code to be used for subtract first_num - second_num functin call
 
     /// the following code to be used for multiply first_num*second_num functin call
@@ -77,8 +77,8 @@ int main(int argc, char *argv[])
 
     /// the following code to be used for odd or even first_num(second_num) is odd or even functin call
 
-  system("PAUSE");
-  return 0;
+    system("PAUSE");
+    return 0;
 }
 
 
