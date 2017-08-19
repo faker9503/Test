@@ -74,15 +74,15 @@
   *   Modification : Created function
 
 *******************************************************************************/
-void odd_even( int datatest )/*datatest为待检测数据*/
+void OddEven( int datatest )/*datatest为待检测数据*/
 {
-  if(datatest%2==0)
+  if(datatest%2 == 0)
    {
-     printf("输入的数字是偶数");
+     printf("输入的数字是偶数\n");
    }
   else
    {
-     printf("输入的数字数奇数");
+     printf("输入的数字数奇数\n");
 }
 
 
