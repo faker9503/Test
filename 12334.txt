@@ -51,7 +51,7 @@ pValue=10,i=7,retval=0<LF>
 pValue=83,i=8,retval=0<LF>
 pValue=26,i=9,retval=0<LF>
 pValue=81,i=10,retval=0<LF>
-pValue=e1,i=11,retval=0<LF>
+pValue=e1,i=11,retval=1<LF>
 pValue=a,i=12,retval=0<LF>
 pValue=4b,i=13,retval=0<LF>
 pValue=ad,i=14,retval=0<LF>
