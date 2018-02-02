@@ -53,4 +53,5 @@ float Divide(float dividend, float divisor)
         quotient = dividend / divisor;//calculate the result
     printf("The result is %f",quotient);
     return 0;
+    //test
 }
