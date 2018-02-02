@@ -80,6 +80,7 @@ void Add(int a, int b)
     int result=0;
     result = a + b;
     printf("Sum=%d\n", result);
+    // return 0;
 }
 
 /** @}*/
